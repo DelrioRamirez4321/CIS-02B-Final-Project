@@ -5,20 +5,23 @@
 
 body {
     font-size: 20px;
-
 }
-
-#zen-intro {
-    width: 800px;
-    margin: 0 auto;
-    display:grid;
-
-}
-
-h1, h2, h3 {
-    text-align: center;
-}
-
-p{
-    text-indent: 1.5em;
-}
+ .page-wrapper {
+     display:grid;
+     grid-template-columns: repeat(12, 1fr);
+     margin: 0 auto;
+     grid-row-gap: 1em;
+     grid-column-gap:1em;
+ }
+ .intro {
+     grid-column-start: 1;
+     grid-column-end: 12;
+ }
+ #zen-supporting {
+    grid-column-start: 1;
+    grid-column-end: 7;
+ }
+ .sidebar {
+    grid-column-start: 7;
+    grid-column-end: 12;
+ }
