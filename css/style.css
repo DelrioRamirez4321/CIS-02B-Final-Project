@@ -13,15 +13,34 @@ font-family: 'Sree Krushnadevaraya', serif;
 
 body {
     font-size: 20px;
+    
 }
 
 h1, h2 ,h3 {
     font-family: 'Abril Fatface', cursive;
+    margin:1em;
     
+}
+
+h1 {
+    font-size: 2em;
+
+}
+
+h2 {
+    font-size: 1.5em
+
+}
+
+h3 {
+    font-size: 1em;
+
 }
 
 p {
     font-family: 'Sree Krushnadevaraya', serif;
+    margin:1em;
+    
 }
 
  .page-wrapper {
@@ -34,15 +53,18 @@ p {
 
  .intro {
      grid-column-start: 1;
-     grid-column-end: 12;
+     grid-column-end: 13;
+ }
+  a {
+     text-decoration: none;
  }
 
  #zen-supporting {
     grid-column-start: 1;
-    grid-column-end: 7;
+    grid-column-end: 10;
  }
 
  .sidebar {
-    grid-column-start: 7;
-    grid-column-end: 12;
+    grid-column-start: 10;
+    grid-column-end: 13;
  }
