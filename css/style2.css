@@ -6,10 +6,26 @@
 body {
     font-size:20px;
     line-height: 120%;
+    background-color:black;
     width: 90%;
 }
 
 .page-wrapper {
     display:grid;
     grid-template-columns: auto(12, 1fr)
+}
+
+h1 {
+    color:white;
+}
+
+h2, h3 {
+    color: rgb(24, 155, 185)
+}
+
+p{
+    color:white;
+}
+.intro > header {
+
 }
