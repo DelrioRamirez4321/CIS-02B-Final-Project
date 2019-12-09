@@ -1,0 +1,15 @@
+* {
+    margin:0 ;
+    padding:0;
+}
+
+body {
+    font-size:20px;
+    line-height: 120%;
+    width: 90%;
+}
+
+.page-wrapper {
+    display:grid;
+    grid-template-columns: auto(12, 1fr)
+}
