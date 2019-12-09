@@ -12,7 +12,12 @@ body {
 
 .page-wrapper {
     display:grid;
-    grid-template-columns: auto(12, 1fr)
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin:0 auto;
+    grid-gap: 10px;
+
+    
 }
 
 h1 {
@@ -26,6 +31,19 @@ h2, h3 {
 p{
     color:white;
 }
-.intro > header {
+.intro {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 
+#zen-supporting {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.sidebar {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
