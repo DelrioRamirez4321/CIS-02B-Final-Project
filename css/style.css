@@ -20,8 +20,6 @@ body {
     background-repeat:repeat;
     background-size: auto;
     background-attachment: fixed;
-    
-    
 }
 
 h1, h2 ,h3 {
@@ -52,7 +50,7 @@ h3 {
 p {
     font-family: 'Sree Krushnadevaraya', serif;
     margin:1em;
-    line-height: 135%;
+    line-height: 145%;
     Color: rgb(66, 240,251);
 }
 
@@ -116,6 +114,7 @@ a:focus, a:hover {
  .sidebar {
     grid-column-start: 10;
     grid-column-end: 13;
+    padding-right: 2em;
  }
 
  #zen-supporting, .intro > div {

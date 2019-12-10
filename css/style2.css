@@ -15,7 +15,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     width: 90%;
     margin:0 auto;
-    grid-gap: 10px;
+    grid-gap: 2em;
 
     
 }
@@ -30,7 +30,26 @@ h2, h3 {
 
 p{
     color:white;
+    background-color: rgb(8, 41, 57);
+    padding: 0.5em;
 }
+
+
+h3 {
+    color: white;
+    background-color: rgb(32, 32, 32);
+    padding:0.5em;
+}
+
+a {
+    color: rgb(24, 155, 185);
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: rgb(134, 180, 192);
+}
+
 .intro {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -39,25 +58,6 @@ p{
 #zen-supporting {
     grid-column-start: 1;
     grid-column-end: 3;
-}
-
-h3 {
-    color: white;
-    background-color: rgb(32, 32, 32);
-}
-
-a {
-    color: 
-    text-decoration: none;
-
-}
-
-a:focus, a:hover {
-    color: rgb(24, 155, 185);
-}
-
-#zen-supporting > p {
-    background-color: rgb(8, 41, 57)
 }
 
 .sidebar {
