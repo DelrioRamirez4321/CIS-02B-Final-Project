@@ -26,11 +26,13 @@ body {
 
 h1, h2 ,h3 {
     font-family: 'Abril Fatface', cursive;
-    margin:1em;
     color: yellow;
     
 }
 
+h1, h2 {
+    text-align: center;
+}
 h1 {
     font-size: 2em;
     
@@ -80,41 +82,42 @@ ul {
     }
     
     
-    .intro > header {
+ .intro > header {
         border: 5px solid rgb(66, 240,251);
         margin: 0.5em;
         background-image:url(../Images/634722.jpg);
         background-size:contain;
     }
     
-    .intro > div {
+.intro > div {
         width: 650px;
-        margin-left: 7em;
     }
     
-    a {
+a {
         text-decoration: none;
         color:white;
     }
     
-    a:focus, a:hover {
+a:focus, a:hover {
         color: rgb(0, 161, 213)
     }
     
-    .intro {
+.intro {
         grid-column-start: 1;
         grid-column-end: 13;
     }
 
-    #zen-supporting {
+#zen-supporting {
         grid-column-start: 1;
         grid-column-end: 10;
         width: 75%;
-        margin:auto;
-        
     }
     
  .sidebar {
     grid-column-start: 10;
     grid-column-end: 13;
+ }
+
+ #zen-supporting, .intro > div {
+     padding-left: 7em;
  }
