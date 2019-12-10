@@ -20,6 +20,11 @@ body {
     
 }
 
+header {
+    padding: 1em;
+    background-image: url()
+}
+
 h1 {
     color:white;
 }
@@ -46,15 +51,35 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: rgb(85, 75, 75);
+}
+
 a:focus, a:hover {
     color: rgb(134, 180, 192);
+}
+
+ul {
+    list-style: none;
+    background-color: rgb(8, 41, 57);
+}
+
+li{
+
+}
+
+#zen-supporting > div {
+    margin: 1em 0 1em 0;
+}
+
+.design-selection, .design-archives, .summary, .preamble{
+    margin: 1em 0 1em 0;
 }
 
 .intro {
     grid-column-start: 1;
     grid-column-end: 3;
 }
-
 #zen-supporting {
     grid-column-start: 1;
     grid-column-end: 3;
