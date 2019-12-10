@@ -41,6 +41,25 @@ p{
     grid-column-end: 3;
 }
 
+h3 {
+    color: white;
+    background-color: rgb(32, 32, 32);
+}
+
+a {
+    color: 
+    text-decoration: none;
+
+}
+
+a:focus, a:hover {
+    color: rgb(24, 155, 185);
+}
+
+#zen-supporting > p {
+    background-color: rgb(8, 41, 57)
+}
+
 .sidebar {
     grid-column-start: 3;
     grid-column-end: 4;
