@@ -1,7 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Bungee|Caudex&display=swap');
-
-
+ @import url('https://fonts.googleapis.com/css?family=Bungee|Caudex&display=swap');
 
 /*
 font-family: 'Caudex', serif;
@@ -22,6 +20,7 @@ body {
     width: 90%;
     color:white;
     font-family: 'Caudex', serif;
+    line-height: 130%;
 
 }
 
@@ -64,8 +63,8 @@ p{
     text-indent: 1em;
 }
 
-p::first-line {
-    text-indent: 0;
+.summary p:first-of-type, .preamble p:first-of-type, .explanation p:first-of-type, .participation p:first-of-type, .benefits p:first-of-type, .requirements p:first-of-type{
+    text-indent:0px;
 }
 
 h3 {
