@@ -1,3 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bungee|Caudex&display=swap');
+
+
+
+/*
+font-family: 'Caudex', serif;
+font-family: 'Bungee', cursive;
+*/
+
+
+
 * {
     margin:0 ;
     padding:0;
@@ -8,6 +20,9 @@ body {
     line-height: 120%;
     background-color:black;
     width: 90%;
+    color:white;
+    font-family: 'Caudex', serif;
+
 }
 
 .page-wrapper {
@@ -25,11 +40,16 @@ header {
     background-image: url()
 }
 
-h1 {
-    color:white;
+h1, h2, h3 {
+    font-family: 'Bungee', cursive;
 }
 
-h2, h3 {
+h1 {
+    color:white;
+    margin-bottom: 0.5em;
+}
+
+h2 {
     color: rgb(24, 155, 185)
 }
 
@@ -38,7 +58,6 @@ p{
     background-color: rgb(8, 41, 57);
     padding: 0.5em;
 }
-
 
 h3 {
     color: white;
@@ -82,7 +101,8 @@ li{
 }
 #zen-supporting {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
+    width: 500px;
 }
 
 .sidebar {
