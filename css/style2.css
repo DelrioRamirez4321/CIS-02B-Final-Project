@@ -37,11 +37,15 @@ body {
 
 header {
     padding: 1em;
-    background-image: url()
+    background-color: rgb(32, 32, 32);
 }
 
 h1, h2, h3 {
     font-family: 'Bungee', cursive;
+}
+
+abbr {
+    text-decoration: none;
 }
 
 h1 {
@@ -57,6 +61,11 @@ p{
     color:white;
     background-color: rgb(8, 41, 57);
     padding: 0.5em;
+    text-indent: 1em;
+}
+
+p::first-line {
+    text-indent: 0;
 }
 
 h3 {
@@ -65,17 +74,18 @@ h3 {
     padding:0.5em;
 }
 
-a {
+a:link {
     color: rgb(24, 155, 185);
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(85, 75, 75);
+    color: rgb(24, 155, 185);
 }
 
 a:focus, a:hover {
     color: rgb(134, 180, 192);
+    text-decoration: underline;
 }
 
 ul {
@@ -84,6 +94,8 @@ ul {
 }
 
 li{
+    padding: 0.5em;
+
 
 }
 
@@ -98,11 +110,12 @@ li{
 .intro {
     grid-column-start: 1;
     grid-column-end: 3;
+    padding-top: 10em;
 }
 #zen-supporting {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    width: 500px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 700px;
 }
 
 .sidebar {
